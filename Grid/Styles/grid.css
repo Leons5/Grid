@@ -1,0 +1,33 @@
+.grid{
+	display: grid;
+	grid-template-columns:50px auto auto auto;
+	grid-auto-rows: auto;
+	background-color: red;
+}
+.grid>div{
+	background-color: whitesmoke;
+}
+#el1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: blue;
+}
+#el2{
+	grid-column-start: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: purple;
+}
+#el3{
+	background-color: yellow;
+}
+#el6{
+	grid-column-start: 4;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	background-color: lightgray;
+}
+#el8{
+	grid-column-start: 3;
+	background-color: lightblue;
+}
